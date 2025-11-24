@@ -24,9 +24,22 @@ To write a Python program to delete elements at FRONT END of deque using a colle
 ### PROGRAM  
 
 ```
+import collections
+n1=input()
+n2=input()
+n3=input()
+
+col=collections.deque([n1,n2,n3])
+
+col.popleft()
+
+print("The deque after deletion is :")
+print(col)
 ```
 
 ### OUTPUT
+<img width="830" height="241" alt="443754683-b66575d8-4179-48cf-977c-f42cb0d14234" src="https://github.com/user-attachments/assets/97ac81b3-e1d6-436c-a20d-17da7d7a66a2" />
 
 
 ### RESULT
+Thus , the given python program is implemented and executed sucessfully.
